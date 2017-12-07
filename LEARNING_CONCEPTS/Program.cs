@@ -4,15 +4,29 @@
 	{
 		static void Main(string[] args)
 		{
-			SomeClass someClass = new SomeClass(); // It's Better!
+			// Old Standard
 			SomeClass oSomeClass = new SomeClass();
 			SomeClass theSomeClass = new SomeClass();
 			SomeClass objSomeClass = new SomeClass();
 
-			oSomeClass.FirstName = "Dariush";
-			//oSomeClass._lastName = "Tasdighi";
+			// New Standard
+			SomeClass someClass = new SomeClass(); // It's Better!
 
-			SomeNewClass oSomeNewClass = new SomeNewClass();
+			someClass.FirstName = "Dariush";
+			//someClass._lastName = "Tasdighi";
+
+			SomeNewClass someNewClass = new SomeNewClass();
+
+			//someNewClass.Sum();
+
+			Utility utility = new Utility();
+
+			//utility.DrawCircle(10, 20, 30, 5);
+			utility.DrawCircle(x: 10, y: 20, radius: 30, width: 5);
+			utility.DrawCircle(x: 10, y: 20, width: 5, radius: 30);
+			utility.DrawCircle(10, 20, radius: 30, width: 5);
+			//utility.DrawCircle(10, 20, radius: 30, 5); // Wrong Usage!
+			utility.DrawCircle(10, 20, width: 5, radius: 30);
 
 			Stack oStack = new Stack();
 
