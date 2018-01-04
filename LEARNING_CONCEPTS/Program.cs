@@ -13,7 +13,7 @@
 			SomeClass someClass = new SomeClass(); // It's Better!
 
 			someClass.FirstName = "Dariush";
-			//someClass._lastName = "Tasdighi";
+			//someClass.lastName = "Tasdighi";
 
 			SomeNewClass someNewClass = new SomeNewClass();
 
@@ -21,37 +21,37 @@
 
 			Utility utility = new Utility();
 
-			//utility.DrawCircle(10, 20, 30, 5);
+			utility.DrawCircle(10, 20, 30, 5);
 			utility.DrawCircle(x: 10, y: 20, radius: 30, width: 5);
 			utility.DrawCircle(x: 10, y: 20, width: 5, radius: 30);
 			utility.DrawCircle(10, 20, radius: 30, width: 5);
 			//utility.DrawCircle(10, 20, radius: 30, 5); // Wrong Usage!
 			utility.DrawCircle(10, 20, width: 5, radius: 30);
 
-			Stack oStack = new Stack();
+			Stack stack = new Stack();
 
-			Queue oQueue = new Queue();
+			Queue queue = new Queue();
 
-			oQueue.Push(5);
-			oQueue.Push(11);
-			oQueue.Push(7);
+			queue.Push(5);
+			queue.Push(11);
+			queue.Push(7);
 
-			int intResult;
+			int result;
 
-			intResult = oQueue.Pop();
-			System.Console.WriteLine("> " + intResult);
+			result = queue.Pop();
+			System.Console.WriteLine("> " + result);
 
-			intResult = oQueue.Pop();
-			System.Console.WriteLine("> " + intResult);
+			result = queue.Pop();
+			System.Console.WriteLine("> " + result);
 
-			intResult = oQueue.Pop();
-			System.Console.WriteLine("> " + intResult);
+			result = queue.Pop();
+			System.Console.WriteLine("> " + result);
 
-			intResult = oQueue.Pop();
-			System.Console.WriteLine("> " + intResult);
+			result = queue.Pop();
+			System.Console.WriteLine("> " + result);
 
-			intResult = oQueue.Pop();
-			System.Console.WriteLine("> " + intResult);
+			result = queue.Pop();
+			System.Console.WriteLine("> " + result);
 
 			System.Console.Write("Press [ENTER] To Exit...");
 			System.Console.ReadLine();
