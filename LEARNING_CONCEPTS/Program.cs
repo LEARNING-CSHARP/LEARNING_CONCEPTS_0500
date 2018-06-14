@@ -19,14 +19,14 @@
 
 			//someNewClass.Sum();
 
-			Utility utility = new Utility();
+			Circle circle = new Circle();
 
-			utility.DrawCircle(10, 20, 30, 5);
-			utility.DrawCircle(x: 10, y: 20, radius: 30, width: 5);
-			utility.DrawCircle(x: 10, y: 20, width: 5, radius: 30);
-			utility.DrawCircle(10, 20, radius: 30, width: 5);
-			//utility.DrawCircle(10, 20, radius: 30, 5); // Wrong Usage!
-			utility.DrawCircle(10, 20, width: 5, radius: 30);
+			circle.Draw(10, 20, 30, 5);
+			circle.Draw(x: 10, y: 20, radius: 30, width: 5);
+			circle.Draw(x: 10, y: 20, width: 5, radius: 30);
+			circle.Draw(10, 20, radius: 30, width: 5);
+			//utility.DrawCircle(10, 20, radius: 30, 5); // Compile Error!
+			circle.Draw(10, 20, width: 5, radius: 30);
 
 			Stack stack = new Stack();
 

@@ -1,8 +1,8 @@
 ﻿namespace LEARNING_CONCEPTS
 {
-	public class Utility
+	public class Circle
 	{
-		public void DrawCircle(int x, int y, int radius, int width)
+		public void Draw(int x, int y, int radius, int width)
 		{
 		}
 	}
