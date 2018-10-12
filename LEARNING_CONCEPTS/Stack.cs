@@ -28,11 +28,11 @@
 
 				index--;
 
-				return (data);
+				return data;
 			}
 			else
 			{
-				return (-1);
+				return -1;
 			}
 		}
 	}

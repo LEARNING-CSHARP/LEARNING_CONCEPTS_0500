@@ -12,6 +12,10 @@
 			// New Standard
 			SomeClass someClass = new SomeClass(); // It's Better!
 
+			// یادآوری
+			//txtFirstName
+			//firstNameTextBox
+
 			someClass.FirstName = "Dariush";
 			//someClass.lastName = "Tasdighi";
 

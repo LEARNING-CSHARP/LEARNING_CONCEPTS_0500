@@ -13,15 +13,15 @@
 		{
 			if (list.Count >= 1)
 			{
-				int intData = (int)list[0];
+				int data = (int)list[0];
 
 				list.RemoveAt(0);
 
-				return (intData);
+				return data;
 			}
 			else
 			{
-				return (-1);
+				return -1;
 			}
 		}
 	}
