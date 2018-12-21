@@ -4,6 +4,8 @@
 	{
 		static void Main(string[] args)
 		{
+			SomeNewClass xyz = new SomeNewClass();
+
 			// Old Standard
 			SomeClass oSomeClass = new SomeClass();
 			SomeClass theSomeClass = new SomeClass();
