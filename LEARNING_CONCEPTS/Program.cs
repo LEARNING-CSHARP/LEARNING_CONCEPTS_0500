@@ -6,17 +6,28 @@
 		{
 			SomeNewClass xyz = new SomeNewClass();
 
-			// Old Standard
+			// استاندارد قدیم
 			SomeClass oSomeClass = new SomeClass();
-			SomeClass theSomeClass = new SomeClass();
 			SomeClass objSomeClass = new SomeClass();
 
-			// New Standard
+			// استاندارد جدید
 			SomeClass someClass = new SomeClass(); // It's Better!
+			SomeClass theSomeClass = new SomeClass(); // It's Better!
 
-			// یادآوری
+			// استاندارد قدیم
+			string strFullName = "Ali Reza Alavi";
+
+			// استاندارد جدید
+			string fullName = "Ali Reza Alavi";
+			string fullNameString = "Ali Reza Alavi";
+
+			// استاندارد قدیم
 			//txtFirstName
+			//lblFirstName
+
+			// استاندارد جدید
 			//firstNameTextBox
+			//firstNameLabel
 
 			someClass.FirstName = "Dariush";
 			//someClass.lastName = "Tasdighi";
@@ -29,7 +40,7 @@
 
 			circle.Draw(10, 20, 30, 5);
 			circle.Draw(x: 10, y: 20, radius: 30, width: 5);
-			circle.Draw(x: 10, y: 20, width: 5, radius: 30);
+			circle.Draw(x: 10, width: 5, radius: 30, y: 20);
 			circle.Draw(10, 20, radius: 30, width: 5);
 			//utility.DrawCircle(10, 20, radius: 30, 5); // Compile Error!
 			circle.Draw(10, 20, width: 5, radius: 30);
@@ -59,7 +70,7 @@
 			result = queue.Pop();
 			System.Console.WriteLine("> " + result);
 
-			System.Console.Write("Press [ENTER] To Exit...");
+			System.Console.Write("Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
 		}
 	}
