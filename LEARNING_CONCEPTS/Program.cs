@@ -4,7 +4,7 @@
 	{
 		static void Main(string[] args)
 		{
-			SomeNewClass xyz = new SomeNewClass();
+			SomeNewNewClass xyz = new SomeNewNewClass();
 
 			// استاندارد قدیم
 			SomeClass oSomeClass = new SomeClass();
@@ -32,9 +32,9 @@
 			someClass.FirstName = "Dariush";
 			//someClass.lastName = "Tasdighi";
 
-			SomeNewClass someNewClass = new SomeNewClass();
+			SomeNewNewClass someNewNewClass = new SomeNewNewClass();
 
-			//someNewClass.Sum();
+			//someNewNewClass.Sum();
 
 			Circle circle = new Circle();
 

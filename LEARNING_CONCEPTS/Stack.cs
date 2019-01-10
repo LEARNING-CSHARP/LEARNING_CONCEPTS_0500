@@ -11,7 +11,7 @@
 		private int index = -1;
 		private System.Collections.ArrayList list = new System.Collections.ArrayList();
 
-		public void Push(int data)
+		public void Push(uint data)
 		{
 			index++;
 
