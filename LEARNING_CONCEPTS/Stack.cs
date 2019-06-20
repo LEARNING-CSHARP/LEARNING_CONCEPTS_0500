@@ -8,25 +8,25 @@
 		//public int Index = -1;
 		//public System.Collections.ArrayList List = new System.Collections.ArrayList();
 
-		private int index = -1;
-		private System.Collections.ArrayList list = new System.Collections.ArrayList();
+		private int _index = -1;
+		private System.Collections.ArrayList _list = new System.Collections.ArrayList();
 
 		public void Push(uint data)
 		{
-			index++;
+			_index++;
 
-			list.Add(data);
+			_list.Add(data);
 		}
 
 		public int Pop()
 		{
-			if (index >= 0)
+			if (_index >= 0)
 			{
-				int data = (int)list[index];
+				int data = (int)_list[_index];
 
-				list.RemoveAt(index);
+				_list.RemoveAt(_index);
 
-				index--;
+				_index--;
 
 				return data;
 			}

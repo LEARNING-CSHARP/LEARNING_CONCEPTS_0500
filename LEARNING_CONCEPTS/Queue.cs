@@ -2,20 +2,20 @@
 {
 	public class Queue
 	{
-		private System.Collections.ArrayList list = new System.Collections.ArrayList();
+		private System.Collections.ArrayList _list = new System.Collections.ArrayList();
 
 		public void Push(uint data)
 		{
-			list.Add(data);
+			_list.Add(data);
 		}
 
 		public int Pop()
 		{
-			if (list.Count >= 1)
+			if (_list.Count >= 1)
 			{
-				int data = (int)list[0];
+				int data = (int)_list[0];
 
-				list.RemoveAt(0);
+				_list.RemoveAt(0);
 
 				return data;
 			}
