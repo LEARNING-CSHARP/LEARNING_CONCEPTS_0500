@@ -3,6 +3,11 @@
 	public class SomeClass
 	{
 		public string FirstName;
-		private string _lastName;
+
+		// استاندارد قدیم
+		//private string _lastName;
+
+		// استاندارد جدید
+		private string lastName;
 	}
 }
