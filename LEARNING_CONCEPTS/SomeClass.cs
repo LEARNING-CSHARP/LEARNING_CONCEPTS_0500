@@ -4,10 +4,10 @@
 	{
 		public string FirstName;
 
-		// استاندارد قدیم
-		//private string _lastName;
-
 		// استاندارد جدید
 		private string lastName;
+
+		// استاندارد قدیم
+		//private string _lastName;
 	}
 }
