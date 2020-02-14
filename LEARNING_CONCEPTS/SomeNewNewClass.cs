@@ -26,5 +26,12 @@
 
 			return result;
 		}
+
+		public int Cross(int x, int y)
+		{
+			int result = x * y;
+
+			return result;
+		}
 	}
 }
