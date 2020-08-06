@@ -8,8 +8,11 @@
 		//public int Index = -1;
 		//public System.Collections.ArrayList List = new System.Collections.ArrayList();
 
+		//private int index = -1;
+		//private System.Collections.ArrayList list = new System.Collections.ArrayList();
+
 		private int index = -1;
-		private System.Collections.ArrayList list = new System.Collections.ArrayList();
+		private readonly System.Collections.ArrayList list = new System.Collections.ArrayList();
 
 		public void Push(int data)
 		{
