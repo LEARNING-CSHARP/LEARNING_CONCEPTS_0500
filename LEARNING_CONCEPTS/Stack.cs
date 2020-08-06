@@ -18,22 +18,21 @@
 			list.Add(data);
 		}
 
-		public int Pop()
+		public int? Pop()
 		{
-			if (index >= 0)
+			if (index < 0)
 			{
-				int data = (int)list[index];
-
-				list.RemoveAt(index);
-
-				index--;
-
-				return data;
+				return null;
 			}
-			else
-			{
-				return -1;
-			}
+
+			int data =
+				(int)list[index];
+
+			list.RemoveAt(index);
+
+			index--;
+
+			return data;
 		}
 	}
 }
