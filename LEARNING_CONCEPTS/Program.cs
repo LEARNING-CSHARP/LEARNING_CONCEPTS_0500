@@ -39,11 +39,11 @@
 			Circle circle = new Circle();
 
 			circle.Draw(10, 20, 30, 5);
-			circle.Draw(x: 10, y: 20, radius: 30, width: 5);
-			circle.Draw(x: 10, width: 5, radius: 30, y: 20);
-			circle.Draw(10, 20, radius: 30, width: 5);
+			circle.Draw(x: 10, y: 20, radius: 30, borderWidth: 5);
+			circle.Draw(x: 10, borderWidth: 5, radius: 30, y: 20);
+			circle.Draw(10, 20, radius: 30, borderWidth: 5);
 			//utility.DrawCircle(10, 20, radius: 30, 5); // Compile Error!
-			circle.Draw(10, 20, width: 5, radius: 30);
+			circle.Draw(10, 20, borderWidth: 5, radius: 30);
 
 			Stack stack = new Stack();
 

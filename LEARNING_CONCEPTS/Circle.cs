@@ -2,7 +2,7 @@
 {
 	public class Circle
 	{
-		public void Draw(int x, int y, int radius, int width)
+		public void Draw(int x, int y, int radius, int borderWidth)
 		{
 		}
 	}
