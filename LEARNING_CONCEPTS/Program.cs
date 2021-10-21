@@ -45,6 +45,7 @@
 			//utility.DrawCircle(10, 20, radius: 30, 5); // Compile Error!
 			circle.Draw(10, 20, borderWidth: 5, radius: 30);
 
+			// **************************************************
 			Stack stack = new Stack();
 
 			stack.Push(10);
@@ -53,19 +54,42 @@
 			stack.Push(40);
 			stack.Push(50);
 
-			int? result = null;
+			int? stackResult = null;
 
 			do
 			{
-				result = stack.Pop();
+				stackResult = stack.Pop();
 
-				if (result != null)
+				if (stackResult != null)
 				{
-					System.Console.WriteLine($"> {result.Value}");
+					System.Console.WriteLine($"> {stackResult.Value}");
 				}
 
-			} while (result != null);
+			} while (stackResult != null);
+			// **************************************************
 
+			// **************************************************
+			Queue queue = new Queue();
+
+			queue.Push(10);
+			queue.Push(20);
+			queue.Push(30);
+			queue.Push(40);
+			queue.Push(50);
+
+			int? queueResult = null;
+
+			do
+			{
+				queueResult = queue.Pop();
+
+				if (queueResult != null)
+				{
+					System.Console.WriteLine($"> {queueResult.Value}");
+				}
+
+			} while (queueResult != null);
+			// **************************************************
 
 			System.Console.Write("Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
