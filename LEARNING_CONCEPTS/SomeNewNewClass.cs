@@ -1,8 +1,5 @@
 ﻿namespace LEARNING_CONCEPTS
 {
-	/// <summary>
-	/// Method Overloading
-	/// </summary>
 	public class SomeNewNewClass
 	{
 		public int Sum(int x, int y)

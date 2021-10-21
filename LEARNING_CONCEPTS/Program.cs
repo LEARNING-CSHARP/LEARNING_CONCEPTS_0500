@@ -47,28 +47,25 @@
 
 			Stack stack = new Stack();
 
-			Queue queue = new Queue();
+			stack.Push(10);
+			stack.Push(20);
+			stack.Push(30);
+			stack.Push(40);
+			stack.Push(50);
 
-			queue.Push(5);
-			queue.Push(11);
-			queue.Push(7);
+			int? result = null;
 
-			int result;
+			do
+			{
+				result = stack.Pop();
 
-			result = queue.Pop();
-			System.Console.WriteLine("> " + result);
+				if (result != null)
+				{
+					System.Console.WriteLine($"> {result.Value}");
+				}
 
-			result = queue.Pop();
-			System.Console.WriteLine("> " + result);
+			} while (result != null);
 
-			result = queue.Pop();
-			System.Console.WriteLine("> " + result);
-
-			result = queue.Pop();
-			System.Console.WriteLine("> " + result);
-
-			result = queue.Pop();
-			System.Console.WriteLine("> " + result);
 
 			System.Console.Write("Press [ENTER] To Exit... ");
 			System.Console.ReadLine();
