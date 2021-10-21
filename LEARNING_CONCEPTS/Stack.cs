@@ -3,7 +3,7 @@
 	public class Stack
 	{
 		private int _index = -1;
-		private readonly System.Collections.ArrayList _list = new System.Collections.ArrayList();
+		private System.Collections.ArrayList _list = new System.Collections.ArrayList();
 
 		public void Push(int data)
 		{
